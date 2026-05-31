@@ -1,0 +1,11 @@
+{
+  "name": "hsx-hardware-static",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo Static site: no build required",
+    "dev": "python -m http.server 5173",
+    "scrape": "node scripts/scrape-products.mjs"
+  }
+}
