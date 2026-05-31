@@ -1,5 +1,6 @@
 {
   "cleanUrls": true,
+  "outputDirectory": ".",
   "trailingSlash": false,
   "headers": [
     {
@@ -13,4 +14,3 @@
     }
   ]
 }
-
