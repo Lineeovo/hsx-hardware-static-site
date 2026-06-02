@@ -304,7 +304,7 @@ const sectionObserver = new IntersectionObserver(
 );
 
 async function init() {
-  const response = await fetch("/src/data/products.json");
+  const response = await fetch("src/data/products.json");
   products = await response.json();
   tags = [...new Set(products.flatMap((product) => product.tags))].sort((a, b) =>
     a.localeCompare(b, "zh-CN"),

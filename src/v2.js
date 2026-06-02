@@ -187,7 +187,7 @@ quoteForm.addEventListener("submit", submitQuote);
 heroQuoteForm.addEventListener("submit", submitHeroQuote);
 
 async function init() {
-  const response = await fetch("/src/data/products.json");
+  const response = await fetch("src/data/products.json");
   products = await response.json();
   renderFeatured();
   renderFilters();
